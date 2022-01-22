@@ -1,0 +1,26 @@
+Step-1: create a database with any name
+
+create database billservice;
+
+Step-2: create a table with below fields
+
+create table users(username varchar(30), password varchar(30));
+
+step-3: insert your username and password for your GUI application
+
+insert into users(username, password) values("avanish", "avanish1156");
+
+Step-4 : create another table  as below 
+
+create table itemlist(name varchar(30), nameid varchar(20), rate varchar(30),
+type varchar(30), storetype varchar(30), primary key(nameid));
+
+Step-5: create another table as below
+
+create table bill(id int auto_increment, name varchar(30), quantity varchar(20), rate varchar(10), cost varchar(10)
+,primary key(id));
+
+
+
+select * from itemlist;
+select * from bill;
